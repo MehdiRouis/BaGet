@@ -151,7 +151,7 @@ namespace BaGet.Core
                 PackageTypes = new List<PackageType>(),
                 RepositoryUrl = null,
                 RepositoryType = null,
-                Tags = package.Tags?.Split(new[] {';'}, StringSplitOptions.RemoveEmptyEntries),
+                Tags = package.Tags?.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries),
 
                 Dependencies = ToDependencies(package)
             };

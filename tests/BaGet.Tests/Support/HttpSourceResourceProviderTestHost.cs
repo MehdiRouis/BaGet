@@ -37,7 +37,7 @@ namespace BaGet.Tests
             if (source.PackageSource.IsHttp)
             {
                 curResource = _cache.GetOrAdd(
-                    source.PackageSource, 
+                    source.PackageSource,
                     packageSource => new HttpSourceResource(TestableHttpSource.Create(source, _httpClient)));
             }
 

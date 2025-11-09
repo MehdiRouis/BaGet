@@ -16,7 +16,7 @@ namespace BaGet.Core
     /// </remarks>
     public class BaGetRegistrationIndexResponse
     {
-#region Original properties from RegistrationIndexResponse.
+        #region Original properties from RegistrationIndexResponse.
         [JsonPropertyName("@id")]
         public string RegistrationIndexUrl { get; set; }
 
@@ -25,7 +25,7 @@ namespace BaGet.Core
 
         [JsonPropertyName("count")]
         public int Count { get; set; }
-#endregion
+        #endregion
 
         /// <summary>
         /// The pages that contain all of the versions of the package, ordered

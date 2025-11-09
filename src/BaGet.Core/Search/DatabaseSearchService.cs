@@ -24,7 +24,7 @@ namespace BaGet.Core
             _searchBuilder = searchBuilder ?? throw new ArgumentNullException(nameof(searchBuilder));
         }
 
-        public async Task<SearchResponse> SearchAsync(SearchRequest request,  CancellationToken cancellationToken)
+        public async Task<SearchResponse> SearchAsync(SearchRequest request, CancellationToken cancellationToken)
         {
             var frameworks = GetCompatibleFrameworksOrNull(request.Framework);
 

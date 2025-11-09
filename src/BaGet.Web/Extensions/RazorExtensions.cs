@@ -1,4 +1,4 @@
-﻿using Humanizer;
+using Humanizer;
 
 namespace BaGet.Web
 {
@@ -6,7 +6,7 @@ namespace BaGet.Web
     {
         public static string ToMetric(this long value)
         {
-            return ((double) value).ToMetric();
+            return ((double)value).ToMetric();
         }
     }
 }

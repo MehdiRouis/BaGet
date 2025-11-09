@@ -1,4 +1,4 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace BaGet.Core.Tests.Services
@@ -57,7 +57,7 @@ namespace BaGet.Core.Tests.Services
             {
                 await Task.CompletedTask;
             }
-            
+
             [Fact]
             public async Task ReturnsPdb()
             {

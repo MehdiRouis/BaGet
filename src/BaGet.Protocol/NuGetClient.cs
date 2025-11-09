@@ -335,7 +335,7 @@ namespace BaGet.Protocol
             int take,
             CancellationToken cancellationToken = default)
         {
-            var response =  await _searchClient.SearchAsync(
+            var response = await _searchClient.SearchAsync(
                 query,
                 skip,
                 take,
